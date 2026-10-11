@@ -12,7 +12,7 @@ import { allocateMandatePortfolio } from "@red-cup-engineering/mandate-portfolio
 import { selectModelCandidate } from "@red-cup-engineering/model-tournament-service";
 import { formPurgedWalkForwardFolds } from "@red-cup-engineering/purged-walk-forward-fold-service";
 import { measureReturnRiskFeatures } from "@red-cup-engineering/return-risk-feature-measurement-service";
-import { startLocalWitnessJournalProviderProcess } from "@red-cup-engineering/witness-journal-rdf-projection-service/local-provider";
+import { startLocalWitnessJournalProviderProcess } from "@red-cup-engineering/witness-journal-document-service/local-provider";
 import { measureSheafLaplacian } from "@red-cup-engineering/sheaf-laplacian-measurement-service";
 import { replayTransactionCosts } from "@red-cup-engineering/transaction-cost-replay-service";
 

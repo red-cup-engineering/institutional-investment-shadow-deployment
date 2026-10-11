@@ -21,7 +21,7 @@
     "@red-cup-engineering/model-tournament-service": "workspace:*",
     "@red-cup-engineering/purged-walk-forward-fold-service": "workspace:*",
     "@red-cup-engineering/return-risk-feature-measurement-service": "workspace:*",
-    "@red-cup-engineering/witness-journal-rdf-projection-service": "1.1.0",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*",
     "@red-cup-engineering/sheaf-laplacian-measurement-service": "workspace:*",
     "@red-cup-engineering/transaction-cost-replay-service": "workspace:*"
   },
