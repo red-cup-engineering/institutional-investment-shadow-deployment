@@ -1,20 +1,20 @@
 #!/usr/bin/env node
-import { createAgentSectionDescentAssay } from "@rsc-quiescent/agent-section-descent-assay-service";
-import { createAlpacaHistoricalBarsService } from "@rsc-quiescent/alpaca-market-data-read-service";
-import { createBrokerageMarketEventRecorder } from "@rsc-quiescent/brokerage-independent-witness-and-books";
-import { assayCausalPanel } from "@rsc-quiescent/causal-market-panel-assay-service";
-import { createCausalPortfolioLearningCircuit } from "@rsc-quiescent/causal-portfolio-learning-service";
-import { measureCausalPatchNovelty } from "@rsc-quiescent/causal-tiling-novelty-measurement-service";
-import { measureCorrelationGraph } from "@rsc-quiescent/correlation-graph-measurement-service";
-import { createContentAddressedDatasetStore } from "@rsc-quiescent/content-addressed-dataset-store-service";
-import { fitDeterministicRidge, predictDeterministicRidge } from "@rsc-quiescent/deterministic-ridge-fit-service";
-import { allocateMandatePortfolio } from "@rsc-quiescent/mandate-portfolio-allocation-service";
-import { selectModelCandidate } from "@rsc-quiescent/model-tournament-service";
-import { formPurgedWalkForwardFolds } from "@rsc-quiescent/purged-walk-forward-fold-service";
-import { measureReturnRiskFeatures } from "@rsc-quiescent/return-risk-feature-measurement-service";
+import { createAgentSectionDescentAssay } from "@red-cup-engineering/agent-section-descent-assay-service";
+import { createAlpacaHistoricalBarsService } from "@red-cup-engineering/alpaca-market-data-read-service";
+import { createBrokerageMarketEventRecorder } from "@red-cup-engineering/brokerage-independent-witness-and-books";
+import { assayCausalPanel } from "@red-cup-engineering/causal-market-panel-assay-service";
+import { createCausalPortfolioLearningCircuit } from "@red-cup-engineering/causal-portfolio-learning-service";
+import { measureCausalPatchNovelty } from "@red-cup-engineering/causal-tiling-novelty-measurement-service";
+import { measureCorrelationGraph } from "@red-cup-engineering/correlation-graph-measurement-service";
+import { createContentAddressedDatasetStore } from "@red-cup-engineering/content-addressed-dataset-store-service";
+import { fitDeterministicRidge, predictDeterministicRidge } from "@red-cup-engineering/deterministic-ridge-fit-service";
+import { allocateMandatePortfolio } from "@red-cup-engineering/mandate-portfolio-allocation-service";
+import { selectModelCandidate } from "@red-cup-engineering/model-tournament-service";
+import { formPurgedWalkForwardFolds } from "@red-cup-engineering/purged-walk-forward-fold-service";
+import { measureReturnRiskFeatures } from "@red-cup-engineering/return-risk-feature-measurement-service";
 import { startLocalWitnessJournalProviderProcess } from "@red-cup-engineering/witness-journal-rdf-projection-service/local-provider";
-import { measureSheafLaplacian } from "@rsc-quiescent/sheaf-laplacian-measurement-service";
-import { replayTransactionCosts } from "@rsc-quiescent/transaction-cost-replay-service";
+import { measureSheafLaplacian } from "@red-cup-engineering/sheaf-laplacian-measurement-service";
+import { replayTransactionCosts } from "@red-cup-engineering/transaction-cost-replay-service";
 
 const required = (name) => {
   const value = process.env[name];

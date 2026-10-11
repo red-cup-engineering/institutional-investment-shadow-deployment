@@ -1,5 +1,5 @@
 {
-  "name": "@rsc-quiescent/institutional-investment-shadow-deployment",
+  "name": "@red-cup-engineering/institutional-investment-shadow-deployment",
   "version": "0.1.1",
   "private": true,
   "type": "module",
@@ -8,22 +8,22 @@
     "run-institutional-shadow-assay": "./scripts/run-shadow-assay.mjs"
   },
   "dependencies": {
-    "@rsc-quiescent/agent-section-descent-assay-service": "0.1.0",
-    "@rsc-quiescent/alpaca-market-data-read-service": "0.1.1",
-    "@rsc-quiescent/brokerage-independent-witness-and-books": "0.1.1",
-    "@rsc-quiescent/causal-market-panel-assay-service": "0.1.0",
-    "@rsc-quiescent/causal-portfolio-learning-service": "0.1.1",
-    "@rsc-quiescent/causal-tiling-novelty-measurement-service": "0.1.0",
-    "@rsc-quiescent/content-addressed-dataset-store-service": "0.1.1",
-    "@rsc-quiescent/correlation-graph-measurement-service": "0.1.0",
-    "@rsc-quiescent/deterministic-ridge-fit-service": "0.1.0",
-    "@rsc-quiescent/mandate-portfolio-allocation-service": "0.1.0",
-    "@rsc-quiescent/model-tournament-service": "0.1.0",
-    "@rsc-quiescent/purged-walk-forward-fold-service": "0.1.0",
-    "@rsc-quiescent/return-risk-feature-measurement-service": "0.1.0",
+    "@red-cup-engineering/agent-section-descent-assay-service": "workspace:*",
+    "@red-cup-engineering/alpaca-market-data-read-service": "workspace:*",
+    "@red-cup-engineering/brokerage-independent-witness-and-books": "workspace:*",
+    "@red-cup-engineering/causal-market-panel-assay-service": "workspace:*",
+    "@red-cup-engineering/causal-portfolio-learning-service": "workspace:*",
+    "@red-cup-engineering/causal-tiling-novelty-measurement-service": "workspace:*",
+    "@red-cup-engineering/content-addressed-dataset-store-service": "workspace:*",
+    "@red-cup-engineering/correlation-graph-measurement-service": "workspace:*",
+    "@red-cup-engineering/deterministic-ridge-fit-service": "workspace:*",
+    "@red-cup-engineering/mandate-portfolio-allocation-service": "workspace:*",
+    "@red-cup-engineering/model-tournament-service": "workspace:*",
+    "@red-cup-engineering/purged-walk-forward-fold-service": "workspace:*",
+    "@red-cup-engineering/return-risk-feature-measurement-service": "workspace:*",
     "@red-cup-engineering/witness-journal-rdf-projection-service": "1.1.0",
-    "@rsc-quiescent/sheaf-laplacian-measurement-service": "0.1.0",
-    "@rsc-quiescent/transaction-cost-replay-service": "0.1.0"
+    "@red-cup-engineering/sheaf-laplacian-measurement-service": "workspace:*",
+    "@red-cup-engineering/transaction-cost-replay-service": "workspace:*"
   },
   "scripts": {
     "check": "node --check scripts/run-shadow-assay.mjs"
