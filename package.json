@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Seats the atomic investment-learning dies for one recorded Alpaca-data shadow assay without execution authority.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-financial-platform-services-section/services/web2-financial-brokerage-platform-services-section/services/alpaca-services-section/services/institutional-investment-shadow-deployment"
+  },
   "bin": {
     "run-institutional-shadow-assay": "./scripts/run-shadow-assay.mjs"
   },
